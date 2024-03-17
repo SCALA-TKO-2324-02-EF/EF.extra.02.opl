@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>EF.extra._02.opl</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\aardbei.png" />
+    <None Remove="Assets\appel.png" />
+    <None Remove="Assets\banaan.png" />
+    <None Remove="Assets\euro.png" />
+    <None Remove="Assets\kers.png" />
+    <None Remove="Assets\kiwi.png" />
+    <None Remove="Assets\peer.png" />
+    <None Remove="Assets\perzik.png" />
+    <None Remove="Assets\pompoen.png" />
+    <None Remove="Assets\sinaas.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EF.slotmachine\EF.slotmachine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\aardbei.png" />
+    <Resource Include="Assets\appel.png" />
+    <Resource Include="Assets\banaan.png" />
+    <Resource Include="Assets\euro.png" />
+    <Resource Include="Assets\kers.png" />
+    <Resource Include="Assets\kiwi.png" />
+    <Resource Include="Assets\peer.png" />
+    <Resource Include="Assets\perzik.png" />
+    <Resource Include="Assets\pompoen.png" />
+    <Resource Include="Assets\sinaas.png" />
+  </ItemGroup>
+
+</Project>
